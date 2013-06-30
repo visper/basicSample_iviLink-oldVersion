@@ -1,1 +1,43 @@
-bijboisn
+Created by Tykhon 30.06.2013
+
+This repo was created for download basicSamples.
+
+If you have problem with git visit http://git-scm.com/book
+
+Habra link about using github http://habrahabr.ru/post/174467/
+
+*********************************************************
+
+information how to create new branch
+
+Branches are pretty easy to work with and will save you a lot of headaches, especially when working with multiple people. To create a branch and begin working in it, run these commands:
+
+git branch mybranch
+# Creates a new branch called "mybranch"
+git checkout mybranch
+# Makes "mybranch" the active branch
+
+Alternatively, you can use the shortcut:
+
+git checkout -b mybranch
+# Creates a new branch called "mybranch" and makes it the active branch
+
+To switch between branches, use git checkout.
+
+git checkout master
+# Makes "master" the active branch
+git checkout mybranch
+# Makes "mybranch" the active branch
+
+Once you're finished working on your branch and are ready to combine it back into the master branch, use merge.
+
+git checkout master
+# Makes "master" the active branch
+git merge mybranch
+# Merges the commits from "mybranch" into "master"
+git branch -d mybranch
+# Deletes the "mybranch" branch
+
+****************************************************
+
+
