@@ -1,9 +1,0 @@
-<device name="Phone" >
-    <service
-        name="BasicSampleService"
-        priority="7" />
-
-    <service
-        name="AuthenticationService"
-        priority="0" />
-</device>
