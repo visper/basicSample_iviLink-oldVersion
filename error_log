@@ -1,0 +1,30 @@
+CBasicSampleProfileImpl.cpp: In member function ‘virtual void CBasicSampleProfileImpl::sendOperands(std::string, std::string)’:
+CBasicSampleProfileImpl.cpp:50:47: error: invalid static_cast from type ‘std::string {aka std::basic_string<char>}’ to type ‘UInt8 {aka unsigned char}’
+CBasicSampleProfileImpl.cpp:51:47: error: invalid static_cast from type ‘std::string {aka std::basic_string<char>}’ to type ‘UInt8 {aka unsigned char}’
+CBasicSampleProfileImpl.cpp: In member function ‘virtual void CBasicSampleProfileImpl::sendResult(std::string)’:
+CBasicSampleProfileImpl.cpp:78:47: error: invalid static_cast from type ‘std::string {aka std::basic_string<char>}’ to type ‘UInt8 {aka unsigned char}’
+CBasicSampleProfileImpl.cpp: In member function ‘virtual void CBasicSampleProfileImpl::onBufferReceived(iviLink::Channel::tChannelId, const iviLink::Buffer&)’:
+CBasicSampleProfileImpl.cpp:172:29: error: invalid conversion from ‘int’ to ‘const char*’ [-fpermissive]
+/usr/include/c++/4.6/bits/basic_string.tcc:214:5: error:   initializing argument 1 of ‘std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]’ [-fpermissive]
+CBasicSampleProfileImpl.cpp:173:49: error: invalid conversion from ‘UInt8 {aka unsigned char}’ to ‘const char*’ [-fpermissive]
+/usr/include/c++/4.6/bits/basic_string.tcc:214:5: error:   initializing argument 1 of ‘std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]’ [-fpermissive]
+CBasicSampleProfileImpl.cpp:173:49: error: invalid conversion from ‘UInt8 {aka unsigned char}’ to ‘const char*’ [-fpermissive]
+/usr/include/c++/4.6/bits/basic_string.tcc:214:5: error:   initializing argument 1 of ‘std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]’ [-fpermissive]
+CBasicSampleProfileImpl.cpp:178:49: error: invalid conversion from ‘UInt8 {aka unsigned char}’ to ‘const char*’ [-fpermissive]
+/usr/include/c++/4.6/bits/basic_string.tcc:214:5: error:   initializing argument 1 of ‘std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]’ [-fpermissive]
+CBasicSampleProfileImpl.cpp:178:49: error: invalid conversion from ‘UInt8 {aka unsigned char}’ to ‘const char*’ [-fpermissive]
+/usr/include/c++/4.6/bits/basic_string.tcc:214:5: error:   initializing argument 1 of ‘std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]’ [-fpermissive]
+CBasicSampleProfileImpl.cpp:192:50: error: invalid conversion from ‘UInt8 {aka unsigned char}’ to ‘const char*’ [-fpermissive]
+/usr/include/c++/4.6/bits/basic_string.tcc:214:5: error:   initializing argument 1 of ‘std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]’ [-fpermissive]
+CBasicSampleProfileImpl.cpp:197:50: error: invalid conversion from ‘UInt8 {aka unsigned char}’ to ‘const char*’ [-fpermissive]
+/usr/include/c++/4.6/bits/basic_string.tcc:214:5: error:   initializing argument 1 of ‘std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]’ [-fpermissive]
+make[4]: *** [/home/visper/iviLink/framework/products/framework/my_genericSamples/linux/profiles/my_basicSample/obj/CBasicSampleProfileImpl.o] Error 1
+make[4]: Leaving directory `/home/visper/iviLink/framework/my_genericSamples/linux/profiles/my_basicSample'
+make[3]: *** [release] Error 2
+make[3]: Leaving directory `/home/visper/iviLink/framework/my_genericSamples/linux/profiles'
+make[2]: *** [release] Error 2
+make[2]: Leaving directory `/home/visper/iviLink/framework/my_genericSamples/linux'
+make[1]: *** [release] Error 2
+make[1]: Leaving directory `/home/visper/iviLink/framework'
+make: *** [release] Error 2
+
