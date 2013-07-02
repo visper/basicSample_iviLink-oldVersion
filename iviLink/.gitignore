@@ -1,0 +1,27 @@
+.cproject
+.project
+*~
+
+# ignore QtCreator temporary files
+##################################
+
+*-build-desktop
+*.pro.user
+moc_*
+
+bin
+obj
+gen
+libs
+profileImpls
+android_apk
+*.o
+*.o.d
+*.a
+*.dex
+
+.metadata/*
+
+local.properties
+
+*.so
