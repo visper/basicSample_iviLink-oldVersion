@@ -200,7 +200,15 @@ void CBasicSampleProfileImpl::onBufferReceived(const tChannelId channel, Buffer 
 	    //char buf[100];
             //itoa(buf,a,10);
 
-	    sendResult(a + b);
+	    std::string aa,bb;
+
+	    char *intStr1 = itoa(a);
+	    aa = std::string(intStr1);
+	    char *intStr2 = itoa(b);
+	    bb = std::string(intStr2);
+
+
+	    sendResult(aa + bb);
 	    mpAppCallbacks->operandsReceived(a,b);
          }
          else
