@@ -1,0 +1,119 @@
+CBasicSampleProfileImpl.cpp: In member function ‘virtual void CBasicSampleProfileImpl::onBufferReceived(iviLink::Channel::tChannelId, const iviLink::Buffer&)’:
+CBasicSampleProfileImpl.cpp:205:28: error: ‘itoa’ was not declared in this scope
+CBasicSampleProfileImpl.cpp:212:42: error: invalid conversion from ‘UInt8 {aka unsigned char}’ to ‘const char*’ [-fpermissive]
+/usr/include/c++/4.6/bits/basic_string.tcc:214:5: error:   initializing argument 1 of ‘std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]’ [-fpermissive]
+CBasicSampleProfileImpl.cpp:212:42: error: invalid conversion from ‘UInt8 {aka unsigned char}’ to ‘const char*’ [-fpermissive]
+/usr/include/c++/4.6/bits/basic_string.tcc:214:5: error:   initializing argument 1 of ‘std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]’ [-fpermissive]
+CBasicSampleProfileImpl.cpp:217:49: error: invalid conversion from ‘UInt8 {aka unsigned char}’ to ‘const char*’ [-fpermissive]
+/usr/include/c++/4.6/bits/basic_string.tcc:214:5: error:   initializing argument 1 of ‘std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]’ [-fpermissive]
+CBasicSampleProfileImpl.cpp:217:49: error: invalid conversion from ‘UInt8 {aka unsigned char}’ to ‘const char*’ [-fpermissive]
+/usr/include/c++/4.6/bits/basic_string.tcc:214:5: error:   initializing argument 1 of ‘std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]’ [-fpermissive]
+CBasicSampleProfileImpl.cpp:231:50: error: invalid conversion from ‘UInt8 {aka unsigned char}’ to ‘const char*’ [-fpermissive]
+/usr/include/c++/4.6/bits/basic_string.tcc:214:5: error:   initializing argument 1 of ‘std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]’ [-fpermissive]
+CBasicSampleProfileImpl.cpp:236:50: error: invalid conversion from ‘UInt8 {aka unsigned char}’ to ‘const char*’ [-fpermissive]
+/usr/include/c++/4.6/bits/basic_string.tcc:214:5: error:   initializing argument 1 of ‘std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]’ [-fpermissive]
+In file included from /home/visper/iviLink/iviLink/include/utils/misc/Logger.hpp:30:0,
+                 from CBasicSampleProfileImpl.hpp:28,
+                 from CBasicSampleProfileImpl.cpp:28:
+/home/visper/iviLink/3rd_party/result/include/log4cplus/helpers/stringhelper.h: In function ‘void log4cplus::helpers::convertIntegerToString(log4cplus::tstring&, intType) [with intType = std::basic_string<char>, log4cplus::tstring = std::basic_string<char>]’:
+/home/visper/iviLink/3rd_party/result/include/log4cplus/helpers/stringhelper.h:183:13:   instantiated from ‘log4cplus::tstring log4cplus::helpers::convertIntegerToString(intType) [with intType = std::basic_string<char>, log4cplus::tstring = std::basic_string<char>]’
+CBasicSampleProfileImpl.cpp:40:3:   instantiated from here
+/home/visper/iviLink/3rd_party/result/include/log4cplus/helpers/stringhelper.h:150:13: error: no match for ‘operator==’ in ‘value == 0’
+/home/visper/iviLink/3rd_party/result/include/log4cplus/helpers/stringhelper.h:150:13: note: candidates are:
+/home/visper/iviLink/3rd_party/result/include/log4cplus/helpers/timehelper.h:168:23: note: bool log4cplus::helpers::operator==(const log4cplus::helpers::Time&, const log4cplus::helpers::Time&)
+/home/visper/iviLink/3rd_party/result/include/log4cplus/helpers/timehelper.h:168:23: note:   no known conversion for argument 1 from ‘std::basic_string<char>’ to ‘const log4cplus::helpers::Time&’
+/usr/include/c++/4.6/bits/stl_multiset.h:679:5: note: template<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::multiset<_Key, _Compare, _Alloc>&, const std::multiset<_Key, _Compare, _Alloc>&)
+/usr/include/c++/4.6/bits/stl_set.h:696:5: note: template<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::set<_Key, _Compare, _Alloc>&, const std::set<_Key, _Compare, _Alloc>&)
+/usr/include/c++/4.6/bits/stream_iterator.h:130:5: note: template<class _Tp, class _CharT, class _Traits, class _Dist> bool std::operator==(const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&, const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&)
+/usr/include/c++/4.6/bits/stl_stack.h:241:5: note: template<class _Tp, class _Seq> bool std::operator==(const std::stack<_Tp, _Seq>&, const std::stack<_Tp, _Seq>&)
+/usr/include/c++/4.6/bits/stl_deque.h:1917:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::deque<_Tp, _Alloc>&, const std::deque<_Tp, _Alloc>&)
+/usr/include/c++/4.6/bits/stl_deque.h:253:5: note: template<class _Tp, class _RefL, class _PtrL, class _RefR, class _PtrR> bool std::operator==(const std::_Deque_iterator<_Tp, _RefL, _PtrL>&, const std::_Deque_iterator<_Tp, _RefR, _PtrR>&)
+/usr/include/c++/4.6/bits/stl_deque.h:246:5: note: template<class _Tp, class _Ref, class _Ptr> bool std::operator==(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)
+/usr/include/c++/4.6/bits/stl_multimap.h:795:5: note: template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::multimap<_Key, _Tp, _Compare, _Alloc>&, const std::multimap<_Key, _Tp, _Compare, _Alloc>&)
+/usr/include/c++/4.6/bits/stl_map.h:877:5: note: template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::map<_Key, _Tp, _Compare, _Alloc>&, const std::map<_Key, _Tp, _Compare, _Alloc>&)
+/usr/include/c++/4.6/bits/stl_tree.h:846:5: note: template<class _Key, class _Val, class _KeyOfValue, class _Compare, class _Alloc> bool std::operator==(const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&, const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&)
+/usr/include/c++/4.6/bits/stl_tree.h:309:5: note: template<class _Val> bool std::operator==(const std::_Rb_tree_iterator<_Tp>&, const std::_Rb_tree_const_iterator<_Val>&)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:194:5: note: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1273:5: note: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2460:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/basic_string.h:2448:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2434:5: note: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+/usr/include/c++/4.6/bits/basic_string.h:2427:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/allocator.h:127:5: note: template<class _Tp> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/allocator.h:122:5: note: template<class _T1, class _T2> bool std::operator==(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/postypes.h:218:5: note: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:335:5: note: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:285:5: note: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_pair.h:201:5: note: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/ext/new_allocator.h:123:5: note: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:805:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:799:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/home/visper/iviLink/3rd_party/result/include/log4cplus/helpers/stringhelper.h:156:43: error: no match for ‘operator<’ in ‘value < 0’
+/home/visper/iviLink/3rd_party/result/include/log4cplus/helpers/stringhelper.h:156:43: note: candidates are:
+/home/visper/iviLink/3rd_party/result/include/log4cplus/helpers/timehelper.h:158:23: note: bool log4cplus::helpers::operator<(const log4cplus::helpers::Time&, const log4cplus::helpers::Time&)
+/home/visper/iviLink/3rd_party/result/include/log4cplus/helpers/timehelper.h:158:23: note:   no known conversion for argument 1 from ‘std::basic_string<char>’ to ‘const log4cplus::helpers::Time&’
+/usr/include/c++/4.6/bits/stl_multiset.h:696:5: note: template<class _Key, class _Compare, class _Alloc> bool std::operator<(const std::multiset<_Key, _Compare, _Alloc>&, const std::multiset<_Key, _Compare, _Alloc>&)
+/usr/include/c++/4.6/bits/stl_set.h:713:5: note: template<class _Key, class _Compare, class _Alloc> bool std::operator<(const std::set<_Key, _Compare, _Alloc>&, const std::set<_Key, _Compare, _Alloc>&)
+/usr/include/c++/4.6/bits/stl_stack.h:259:5: note: template<class _Tp, class _Seq> bool std::operator<(const std::stack<_Tp, _Seq>&, const std::stack<_Tp, _Seq>&)
+/usr/include/c++/4.6/bits/stl_deque.h:1935:5: note: template<class _Tp, class _Alloc> bool std::operator<(const std::deque<_Tp, _Alloc>&, const std::deque<_Tp, _Alloc>&)
+/usr/include/c++/4.6/bits/stl_deque.h:280:5: note: template<class _Tp, class _RefL, class _PtrL, class _RefR, class _PtrR> bool std::operator<(const std::_Deque_iterator<_Tp, _RefL, _PtrL>&, const std::_Deque_iterator<_Tp, _RefR, _PtrR>&)
+/usr/include/c++/4.6/bits/stl_deque.h:272:5: note: template<class _Tp, class _Ref, class _Ptr> bool std::operator<(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)
+/usr/include/c++/4.6/bits/stl_multimap.h:812:5: note: template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator<(const std::multimap<_Key, _Tp, _Compare, _Alloc>&, const std::multimap<_Key, _Tp, _Compare, _Alloc>&)
+/usr/include/c++/4.6/bits/stl_map.h:894:5: note: template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator<(const std::map<_Key, _Tp, _Compare, _Alloc>&, const std::map<_Key, _Tp, _Compare, _Alloc>&)
+/usr/include/c++/4.6/bits/stl_tree.h:856:5: note: template<class _Key, class _Val, class _KeyOfValue, class _Compare, class _Alloc> bool std::operator<(const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&, const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1290:5: note: template<class _Tp, class _Alloc> bool std::operator<(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2534:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator<(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2522:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator<(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/basic_string.h:2510:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator<(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:341:5: note: template<class _IteratorL, class _IteratorR> bool std::operator<(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:291:5: note: template<class _Iterator> bool std::operator<(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_pair.h:207:5: note: template<class _T1, class _T2> bool std::operator<(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:830:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator<(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:824:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator<(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/home/visper/iviLink/3rd_party/result/include/log4cplus/helpers/stringhelper.h:183:13:   instantiated from ‘log4cplus::tstring log4cplus::helpers::convertIntegerToString(intType) [with intType = std::basic_string<char>, log4cplus::tstring = std::basic_string<char>]’
+CBasicSampleProfileImpl.cpp:40:3:   instantiated from here
+/home/visper/iviLink/3rd_party/result/include/log4cplus/helpers/stringhelper.h:160:13: error: no match for ‘operator!=’ in ‘value != 0’
+/home/visper/iviLink/3rd_party/result/include/log4cplus/helpers/stringhelper.h:160:13: note: candidates are:
+/home/visper/iviLink/3rd_party/result/include/log4cplus/helpers/timehelper.h:170:23: note: bool log4cplus::helpers::operator!=(const log4cplus::helpers::Time&, const log4cplus::helpers::Time&)
+/home/visper/iviLink/3rd_party/result/include/log4cplus/helpers/timehelper.h:170:23: note:   no known conversion for argument 1 from ‘std::basic_string<char>’ to ‘const log4cplus::helpers::Time&’
+/usr/include/c++/4.6/bits/stl_multiset.h:703:5: note: template<class _Key, class _Compare, class _Alloc> bool std::operator!=(const std::multiset<_Key, _Compare, _Alloc>&, const std::multiset<_Key, _Compare, _Alloc>&)
+/usr/include/c++/4.6/bits/stl_set.h:720:5: note: template<class _Key, class _Compare, class _Alloc> bool std::operator!=(const std::set<_Key, _Compare, _Alloc>&, const std::set<_Key, _Compare, _Alloc>&)
+/usr/include/c++/4.6/bits/stream_iterator.h:137:5: note: template<class _Tp, class _CharT, class _Traits, class _Dist> bool std::operator!=(const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&, const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&)
+/usr/include/c++/4.6/bits/stl_stack.h:265:5: note: template<class _Tp, class _Seq> bool std::operator!=(const std::stack<_Tp, _Seq>&, const std::stack<_Tp, _Seq>&)
+/usr/include/c++/4.6/bits/stl_deque.h:1943:5: note: template<class _Tp, class _Alloc> bool std::operator!=(const std::deque<_Tp, _Alloc>&, const std::deque<_Tp, _Alloc>&)
+/usr/include/c++/4.6/bits/stl_deque.h:266:5: note: template<class _Tp, class _RefL, class _PtrL, class _RefR, class _PtrR> bool std::operator!=(const std::_Deque_iterator<_Tp, _RefL, _PtrL>&, const std::_Deque_iterator<_Tp, _RefR, _PtrR>&)
+/usr/include/c++/4.6/bits/stl_deque.h:259:5: note: template<class _Tp, class _Ref, class _Ptr> bool std::operator!=(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)
+/usr/include/c++/4.6/bits/stl_multimap.h:819:5: note: template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator!=(const std::multimap<_Key, _Tp, _Compare, _Alloc>&, const std::multimap<_Key, _Tp, _Compare, _Alloc>&)
+/usr/include/c++/4.6/bits/stl_map.h:901:5: note: template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator!=(const std::map<_Key, _Tp, _Compare, _Alloc>&, const std::map<_Key, _Tp, _Compare, _Alloc>&)
+/usr/include/c++/4.6/bits/stl_tree.h:866:5: note: template<class _Key, class _Val, class _KeyOfValue, class _Compare, class _Alloc> bool std::operator!=(const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&, const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&)
+/usr/include/c++/4.6/bits/stl_tree.h:315:5: note: template<class _Val> bool std::operator!=(const std::_Rb_tree_iterator<_Tp>&, const std::_Rb_tree_const_iterator<_Val>&)
+/usr/include/c++/4.6/bits/streambuf_iterator.h:200:5: note: template<class _CharT, class _Traits> bool std::operator!=(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+/usr/include/c++/4.6/bits/stl_vector.h:1297:5: note: template<class _Tp, class _Alloc> bool std::operator!=(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2497:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+/usr/include/c++/4.6/bits/basic_string.h:2485:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/basic_string.h:2473:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.6/bits/allocator.h:137:5: note: template<class _Tp> bool std::operator!=(const std::allocator<_Tp1>&, const std::allocator<_Tp1>&)
+/usr/include/c++/4.6/bits/allocator.h:132:5: note: template<class _T1, class _T2> bool std::operator!=(const std::allocator<_T1>&, const std::allocator<_T2>&)
+/usr/include/c++/4.6/bits/postypes.h:223:5: note: template<class _StateT> bool std::operator!=(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:347:5: note: template<class _IteratorL, class _IteratorR> bool std::operator!=(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:297:5: note: template<class _Iterator> bool std::operator!=(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.6/bits/stl_pair.h:214:5: note: template<class _T1, class _T2> bool std::operator!=(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+/usr/include/c++/4.6/ext/new_allocator.h:128:5: note: template<class _Tp> bool __gnu_cxx::operator!=(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:817:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator!=(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.6/bits/stl_iterator.h:811:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator!=(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/home/visper/iviLink/3rd_party/result/include/log4cplus/helpers/stringhelper.h:162:39: error: no match for ‘operator%’ in ‘value % 10’
+/home/visper/iviLink/3rd_party/result/include/log4cplus/helpers/stringhelper.h:163:17: error: no match for ‘operator/’ in ‘value / 10’
+/home/visper/iviLink/3rd_party/result/include/log4cplus/helpers/stringhelper.h:163:17: note: candidate is:
+/home/visper/iviLink/3rd_party/result/include/log4cplus/helpers/timehelper.h:151:49: note: const log4cplus::helpers::Time log4cplus::helpers::operator/(const log4cplus::helpers::Time&, long int)
+/home/visper/iviLink/3rd_party/result/include/log4cplus/helpers/timehelper.h:151:49: note:   no known conversion for argument 1 from ‘std::basic_string<char>’ to ‘const log4cplus::helpers::Time&’
+/home/visper/iviLink/3rd_party/result/include/log4cplus/helpers/stringhelper.h:164:17: error: invalid static_cast from type ‘std::basic_string<char>’ to type ‘log4cplus::tchar {aka char}’
+make[4]: *** [/home/visper/iviLink/framework/products/framework/my_genericSamples/linux/profiles/my_basicSample/obj/CBasicSampleProfileImpl.o] Error 1
+make[4]: Leaving directory `/home/visper/iviLink/framework/my_genericSamples/linux/profiles/my_basicSample'
+make[3]: *** [release] Error 2
+make[3]: Leaving directory `/home/visper/iviLink/framework/my_genericSamples/linux/profiles'
+make[2]: *** [release] Error 2
+make[2]: Leaving directory `/home/visper/iviLink/framework/my_genericSamples/linux'
+make[1]: *** [release] Error 2
+make[1]: Leaving directory `/home/visper/iviLink/framework'
+make: *** [release] Error 2
+
